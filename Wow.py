@@ -1,6 +1,3 @@
-
-#DONT COPY MY SCRIPT#
-#ANOTHER:- BILAL-XD
 #!/usr/bin/python2
 # coding=utf-8
  
@@ -17,8 +14,8 @@ import hashlib
 import cookielib
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
-__author__ = 'Bilal'
-__copyright = 'All rights reserved . Copyright  Bilal'
+__author__ = 'MR-BILAL-XD'
+__copyright = 'All rights reserved . Copyright  Mr-BILAL'
 os.system('termux-setup-storage')
  
 try:
@@ -52,18 +49,20 @@ P='\033[1;95m'
 Y='\033[1;93m'
  
 #Dev:BILAL_HACKER
-#DON'T_COPY_MY SCRIPT
 #### LOGO ####
 logo = """                          
-\033[1;91m_____________________________________________
- \033[1;97md8888b. d888888b db       .d8b.  db             d88888b d8888b. 
-  \033[1;97m88  `8D   `88'   88      d8' `8b 88             88'     88  `8D 
- \033[1;91m88oooY'    88    88      88ooo88 88             88ooo   88oooY' 
- \033[1;91m88~~~b.    88    88      88~~~88 88      C8888D 88~~~   88~~~b. 
-  \033[1;97m88   8D   .88.   88booo. 88   88 88booo.        88      88   8D 
-  \033[1;97mY8888P' Y888888P Y88888P YP   YP Y88888P        YP      Y8888P'                                                          
-\033[1:91mBilal Haider Is A Cute Boy And Searching for a Cute GF    
-\033[1;91m_________________________________________"""                                                                          """
+ ______ ______         ______  _____  _      _____ 
+ |  ___|| ___ \        |  ___||_   _|| |    |  ___|
+ | |_   | |_/ / ______ | |_     | |  | |    | |__  
+ |  _|  | ___ \|______||  _|    | |  | |    |  __| 
+ | |    | |_/ /        | |     _| |_ | |____| |___ 
+ \_|    \____/         \_|     \___/ \_____/\____/ 
+                                                   
+                                                                                                     
+
+                                    \033[1;91BILAL-XD
+                                                                       
+"""
 def log_menu():
     
     try:
@@ -74,25 +73,22 @@ def log_menu():
         print logo
         print '\033[1;92m ~~~~ Login menu ~~~~\033[1;94m'
 	print 47 * '-'
-        print '\033[1;97mᗷƖᒪᗩᒪ-᙭ᗪ✓[1] Login with Facebook'
-        print '\033[1;91mᗷƖᒪᗩᒪ-᙭ᗪ✓[2] Login with token'
-        print '\033[1;97mᗷƖᒪᗩᒪ-᙭ᗪ✓[3] Follow On Fb'
-        print '\033[1;97mᗷƖᒪᗩᒪ-᙭ᗪ✓[5] Subscribe Me on youtube'
+        print '\033[1;97m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[1] Login with FaceBook'
+        print '\033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[2] Login with token'
+        print '\033[1;97m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[3] Follow  On Fb'
         print ''
         log_menu_s()
  
  
  
 def log_menu_s():
-    s = raw_input(' \033[1;97m╰─ᗷƖᒪᗩᒪ-᙭ᗪ➤ ')
+    s = raw_input(' \033[1;97m╰─𝗕𝗶𝗹𝗮𝗹-𝗫𝗗➤ ')
     if s == '1':
         log_fb()
     elif s == '2':
         log_token()
     elif s == '3':
         os.system('xdg-open https://www.facebook.com/100011466164055')
-    elif s == '4':
-    	os.system('xdg-open https://youtube.com/channel/UCnpo3IZafwXQDcWsh67JK-Q')
     else:
         print ''
         print '\\ Select valid option '
@@ -136,7 +132,7 @@ def log_token():
     print logo
     print '\033[1;97mLogin with token\033[1;91m'
     print 47 * '-'
-    tok = raw_input(' \033[1;92mPast token here: \033[1;91m')
+    tok = raw_input(' \033[1;92mPaste token here: \033[1;91m')
     print 47 * '-'
     t_s = open('access_token.txt', 'w')
     t_s.write(tok)
@@ -184,7 +180,7 @@ def menu():
     print 47 * '-'
     print ' \033[1;92m Active token: \033[1;94m' + tok
     print ' ------------------------------------------ '
-    print '\033[1;91mᗷƖᒪᗩᒪ-᙭ᗪ✓[1] Start Cloning' 
+print '\033[1;91mᗷƖᒪᗩᒪ-᙭ᗪ✓[1] Start Cloning' 
     print '\033[1;91mᗷƖᒪᗩᒪ-᙭ᗪ✓[2] Follow me'
     print '\033[1;91mᗷƖᒪᗩᒪ-᙭ᗪ✓[3] View token'
     print '\033[1;91mᗷƖᒪᗩᒪ-᙭ᗪ✓[4] Logout'
