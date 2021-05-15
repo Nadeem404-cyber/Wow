@@ -17,8 +17,8 @@ import hashlib
 import cookielib
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
-__author__ = 'ᗷƖᒪᗩᒪ-᙭ᗪ✓'
-__copyright = 'All rights reserved . Copyright  ᗷƖᒪᗩᒪ-᙭ᗪ✓'
+__author__ = 'Bilal'
+__copyright = 'All rights reserved . Copyright  Bilal'
 os.system('termux-setup-storage')
  
 try:
