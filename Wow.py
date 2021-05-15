@@ -62,10 +62,8 @@ logo = """
  \033[1;91m88~~~b.    88    88      88~~~88 88      C8888D 88~~~   88~~~b. 
   \033[1;97m88   8D   .88.   88booo. 88   88 88booo.        88      88   8D 
   \033[1;97mY8888P' Y888888P Y88888P YP   YP Y88888P        YP      Y8888P'                                                          
-\033[1:91mBilal Haider Is A Cute Boy And Searching for a Cute GF
-\033[1;91mᗷƖᒪᗩᒪ-᙭ᗪ✓     
-\033[1;91m_________________________________________                                                                          
-"""
+\033[1:91mBilal Haider Is A Cute Boy And Searching for a Cute GF    
+\033[1;91m_________________________________________"""                                                                          """
 def log_menu():
     
     try:
