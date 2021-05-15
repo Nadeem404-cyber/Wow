@@ -267,15 +267,6 @@ def a_s():
         pass2 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[2]Password: ')
         pass3 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[3]Password: ')
       	pass4 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[4]Password: ')
-      pass5 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[5]Password: ')
-	pass6 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[6]Password: ')
-	pass7 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[7]Password: ')
-	pass8 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[8]Password: ')
-	p9 = raw_input(' Name + your digit: ')
-	p10 = raw_input(' Name + your digit: ')
-	p11 = raw_input(' Name + your digit: ')
-	p12 = raw_input(' Name + your digit: ')
-	p13 = raw_input(' Name + your digit: ')
         idt = raw_input(' \033[1;93m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[★]Enter id: ')
         
         try:
@@ -308,15 +299,6 @@ def a_s():
         pass2 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[2]Password: ')
         pass3 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[3]Password: ')
 	pass4 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[4]Password: ')
-	pass5 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[5]Password: ')
-	pass6 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[6]Password: ')
-	pass7 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[7]Password: ')
-	pass8 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[8]Password: ')
-	p9 = raw_input(' Name + your digit: ')
-	p10 = raw_input(' Name + your digit: ')
-	p11 = raw_input(' Name + your digit: ')
-	p12 = raw_input(' Name + your digit: ')
-	p13 = raw_input(' Name + your digit: ')
         idt = raw_input(' \033[1;93m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[★]Enter id: ')
         
         try:
@@ -349,15 +331,6 @@ def a_s():
         pass2 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[2]Password: ')
         pass3 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[3]Password: ')
 	pass4 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[4]Password: ')
-        pass5 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[5]Password: ')
-	pass6 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[6]Password: ')
-	pass7 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[7]Password: ')
-	pass8 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[8]Password: ')
-	p9 = raw_input(' Name + your digit: ')
-	p10 = raw_input(' Name + your digit: ')
-	p11 = raw_input(' Name + your digit: ')
-	p12 = raw_input(' Name + your digit: ')
-	p13 = raw_input(' Name + your digit: ')
         try:
 	    idlist= raw_input('[+] File Name: ')
 	    for line in open(idlist ,'r').readlines():
