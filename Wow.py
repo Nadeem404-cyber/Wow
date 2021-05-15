@@ -75,7 +75,7 @@ def log_menu():
         print '\033[1;92m ~~~~ Login menu ~~~~\033[1;94m'
 	print 47 * '-'
         print '\033[1;97mᗷƖᒪᗩᒪ-᙭ᗪ✓[1] Login with FaceBook'
-        print '\033[1;97mᗷƖᒪᗩᒪ-᙭ᗪ✓[2] Login with token'
+        print '\033[1;91mᗷƖᒪᗩᒪ-᙭ᗪ✓[2] Login with token'
         print '\033[1;97mᗷƖᒪᗩᒪ-᙭ᗪ✓[3] Follow On Fb'
         print '\033[1;97mᗷƖᒪᗩᒪ-᙭ᗪ✓[5] Subscribe Me on youtube'
         print ''
