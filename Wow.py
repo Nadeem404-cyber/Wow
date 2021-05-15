@@ -180,16 +180,16 @@ def menu():
     print 47 * '-'
     print ' \033[1;92m Active token: \033[1;94m' + tok
     print ' ------------------------------------------ '
-print '\033[1;91mᗷƖᒪᗩᒪ-᙭ᗪ✓[1] Start Cloning' 
-    print '\033[1;91mᗷƖᒪᗩᒪ-᙭ᗪ✓[2] Follow me'
-    print '\033[1;91mᗷƖᒪᗩᒪ-᙭ᗪ✓[3] View token'
-    print '\033[1;91mᗷƖᒪᗩᒪ-᙭ᗪ✓[4] Logout'
-    print '\033[1;91mᗷƖᒪᗩᒪ-᙭ᗪ✓[5] Delete trash files'
+    print '\033[1;91m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[1] Start Cloning' 
+    print '\033[1;91m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[2] Follow me'
+    print '\033[1;91m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[3] View token'
+    print '\033[1;91m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[4] Logout'
+    print '\033[1;91m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[5] Delete trash files'
     menu_s()
  
  
 def menu_s():
-    ms = raw_input('\033[1;92m╰─ᗷƖᒪᗩᒪ-᙭ᗪ➤ ')
+    ms = raw_input('\033[1;92m╰─𝗕𝗶𝗹𝗮𝗹-𝗫𝗗➤ ')
     if ms == '1':
         auto_crack()
     elif ms == '2':
@@ -223,10 +223,10 @@ def crack():
     print logo
     print '\033[1;91m~~~~ Choice pass cracking ~~~~\033[1;94m'
     print 47 * '-'
-    print '\033[1;91mᗷƖᒪᗩᒪ-᙭ᗪ✓[1] Public id cloning'
-    print '\033[1;97mᗷƖᒪᗩᒪ-᙭ᗪ✓[2] Followers cloning'
-    print '\033[1;93mᗷƖᒪᗩᒪ-᙭ᗪ✓[3] File cloning'
-    print '\033[1;94mᗷƖᒪᗩᒪ-᙭ᗪ✓[0] Back'
+    print '\033[1;91m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[1] Public id cloning'
+    print '\033[1;97m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[2] Followers cloning'
+    print '\033[1;93m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[3] File cloning'
+    print '\033[1;94m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[0] Back'
     a_s()
  
 def auto_crack():
@@ -246,10 +246,10 @@ def auto_crack():
     print logo
     print '\033[1;90m~~~~ Choice pass cracking ~~~~\033[1;94m'
     print 47 * '-'
-    print '\033[1;91mᗷƖᒪᗩᒪ-᙭ᗪ✓[1] Public id cloning'
-    print '\033[1;97mᗷƖᒪᗩᒪ-᙭ᗪ✓[2] Followers cloning'
-    print '\033[1;93mᗷƖᒪᗩᒪ-᙭ᗪ✓[3] File cloning'
-    print '\033[1;94mᗷƖᒪᗩᒪ-᙭ᗪ✓[0] Back'
+    print '\033[1;91m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[1] Public id cloning'
+    print '\033[1;97m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[2] Followers cloning'
+    print '\033[1;93m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[3] File cloning'
+    print '\033[1;94m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[0] Back'
     a_s()
  
  
@@ -607,3 +607,5 @@ def a_s():
  
 if __name__ == '__main__':
     menu()
+
+hi
