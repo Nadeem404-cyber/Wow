@@ -1,6 +1,6 @@
 
 #DONT COPY MY SCRIPT#
-ANOTHER:- BILAL-XD
+#ANOTHER:- BILAL-XD
 #!/usr/bin/python2
 # coding=utf-8
  
