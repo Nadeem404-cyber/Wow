@@ -60,7 +60,7 @@ logo = """
                                                    
                                                                                                      
 
-                                    \033[1;91BILAL-XD
+                                    \033[1;91mBILAL-XD
                                                                        
 """
 def log_menu():
